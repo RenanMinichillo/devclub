@@ -1,0 +1,19 @@
+input::placeholder {
+  color: darkorchid;
+}
+
+p::first-letter {
+  color: magenta;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+a::before {
+  content: "😎 ";
+}
+
+a::after {
+  content: " 🚀";
+}

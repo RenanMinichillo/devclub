@@ -1,0 +1,23 @@
+div {
+  width: 50vw;
+  height: 50vh;
+  background: #ff4ca3;
+}
+
+@media (max-width: 600px) {
+  div {
+    background: #37c576;
+  }
+}
+
+@media (min-width: 1800px) {
+  div {
+    background: #af6af5;
+  }
+}
+
+@media screen and (max-width: 500px) and (orientation: landscape) {
+  div {
+    background: #11c4c4;
+  }
+}

@@ -1,0 +1,79 @@
+div {
+  margin-bottom: 30px;
+}
+
+a:link {
+  color: #ff9f00;
+}
+
+a:visited {
+  color: #af6af5;
+}
+
+a:focus {
+  color: #ff4ca3;
+}
+
+a:hover {
+  color: #37c576;
+  text-decoration: none;
+}
+
+a:active {
+  color: #11c4c4;
+  font-weight: bold;
+}
+
+input:checked {
+  width: 50px;
+  height: 50px;
+}
+
+button:disabled {
+  color: #f8cdd5;
+}
+
+input:read-only {
+  color: #f55;
+}
+
+div:empty {
+  height: 100px;
+  background: #faeca5;
+}
+
+p:first-child {
+  color: #ff4ca3;
+}
+
+p:last-child {
+  color: #11c4c4;
+}
+
+span:first-of-type {
+  color: #ff9f00;
+}
+
+span:last-of-type {
+  color: #af6af5;
+}
+
+.container p:not(.ignore) {
+  color: #37c576;
+}
+
+.nth li:nth-child(3) {
+  color: #ff4ca3;
+}
+
+.nth li:nth-child(odd) {
+  font-weight: bold;
+}
+
+.nth li:nth-child(even) {
+  font-style: italic;
+}
+
+.nth li:nth-last-child(4) {
+  color: #11c4c4;
+}

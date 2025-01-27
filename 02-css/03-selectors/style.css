@@ -1,0 +1,26 @@
+* {
+  background: lightcyan;
+}
+
+li {
+  color: crimson;
+}
+
+.btn {
+  color: crimson;
+  font-size: 24px;
+}
+
+#btn-1 {
+  background: chartreuse;
+}
+
+#btn-2 {
+  background: yellow;
+}
+
+.submit-input,
+.submit-btn {
+  font-size: 20px;
+  background: fuchsia;
+}

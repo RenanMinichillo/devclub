@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: crimson;
+  font-size: 64px;
+  font-style: italic;
+}
+
+p {
+  color: midnightblue;
+  font-size: 20px;
+}
+
+.w-100 {
+  font-weight: 100;
+}
+
+.w-900 {
+  font-weight: 900;
+}
+
+.spaces {
+  line-height: 45px;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.text-shadow {
+  text-shadow: 5px 5px 10px skyblue;
+}

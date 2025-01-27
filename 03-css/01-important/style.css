@@ -1,0 +1,15 @@
+.no-important {
+  color: crimson;
+}
+
+.no-important {
+  color: deepskyblue;
+}
+
+.important {
+  color: crimson !important;
+}
+
+.important {
+  color: deepskyblue;
+}

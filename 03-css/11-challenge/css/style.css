@@ -1,0 +1,96 @@
+body,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  margin: 44px 0 144px 76px;
+}
+
+a,
+button,
+h1 {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  margin-right: 23px;
+
+  color: #989d9c;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+}
+
+.login-btn {
+  width: 130px;
+  height: 41px;
+
+  border: none;
+  border-radius: 20px;
+
+  color: #fff;
+  background: #665ae1;
+
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+.hero {
+  width: 568px;
+  margin-left: 125px;
+}
+
+section {
+  width: 515px;
+  display: inline-block;
+  vertical-align: top;
+
+  margin-left: 86px;
+}
+
+h1 {
+  color: #515151;
+  font-size: 100px;
+  line-height: 122px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #515151;
+  font-size: 58px;
+  line-height: 71px;
+  font-weight: 500;
+}
+
+p {
+  margin: 32px 0 65px;
+
+  color: #848484;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.explore-btn {
+  width: 239px;
+  height: 64px;
+  border: none;
+  border-radius: 50px;
+
+  color: #000;
+  background: #adff00;
+  box-shadow: 0 4px 4px 0 rgba(0 0 0 / 0.25);
+
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+}

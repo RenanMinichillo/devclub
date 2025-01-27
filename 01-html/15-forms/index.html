@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form action="" method="get" enctype="multipart/form-data">
+      <label>
+        First Name:
+        <input
+          type="text"
+          name="first-name"
+          autocomplete="given-name" /> </label
+      ><br /><br />
+
+      <label>
+        Last Name:
+        <input
+          type="text"
+          name="last-name"
+          autocomplete="family-name" /> </label
+      ><br /><br />
+
+      <label>
+        Email:
+        <input type="email" name="email" autocomplete="email" /> </label
+      ><br /><br />
+
+      <label>
+        Profile Picture:
+        <input type="file" name="profile-picture" accept="image/*" /> </label
+      ><br /><br />
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

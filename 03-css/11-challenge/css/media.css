@@ -1,0 +1,37 @@
+@media screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    display: block;
+    margin: 149px auto 24px;
+    padding: 0 18px;
+  }
+
+  section {
+    width: initial;
+    display: block;
+    margin-left: initial;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  p {
+    display: none;
+  }
+
+  .explore-btn {
+    margin-top: 17px;
+  }
+}
