@@ -1,11 +1,11 @@
-const age = 28;
-console.log(age);
+const idade = 28;
+console.log(idade);
 
 const PI = 3.14159;
 console.log(PI);
 
-const answer = 2 * 3 * 7;
-console.log(answer);
+const resposta = 2 * 3 * 7;
+console.log(resposta);
 
-const fakeAnswer = "2 * 3 * 7";
-console.log(fakeAnswer);
+const respostaFalsa = "2 * 3 * 7";
+console.log(respostaFalsa);

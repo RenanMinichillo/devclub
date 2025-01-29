@@ -1,5 +1,5 @@
 const user = {
-  name: "Paula",
+  name: "Renan",
   pet: null
 };
 

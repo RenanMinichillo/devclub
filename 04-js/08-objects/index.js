@@ -1,5 +1,5 @@
 const user = {
-  name: "Paula",
+  name: "Renan",
   age: 28,
   fullAddress: {
     address: "404 Not Found St",
@@ -14,5 +14,5 @@ console.log(user.name);
 console.log(user.fullAddress);
 console.log(user.fullAddress.address);
 
-user.name = "Paula Rodrigues";
+user.name = "Renan Minichillo";
 console.log(user);

@@ -1,7 +1,7 @@
 const MIN_PASSING_GRADE = 6;
 const SECRET_PASSWORD = "123456";
 
-let grade = 9;
+let grade = 7;
 
 console.log(`GRADE: ${grade}`);
 console.log("... IF ...");

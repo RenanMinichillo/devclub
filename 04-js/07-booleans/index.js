@@ -1,5 +1,5 @@
-const isTwoPrime = true;
-console.log(isTwoPrime);
+const verdadeiro = true;
+console.log(verdadeiro);
 
-const isTwoOdd = false;
-console.log(isTwoOdd);
+const falso = false;
+console.log(falso);

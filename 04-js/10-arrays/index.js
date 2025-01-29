@@ -1,13 +1,13 @@
 const miscellaneousArray = [
   3.14159,
   "Hello, World!",
-  { name: "Paula", age: 28 }
+  { name: "Renan", age: 28 }
 ];
 console.log(miscellaneousArray);
 
 const users = [
-  { name: "Charles", age: 52 },
-  { name: "Paula", age: 28 }
+  { name: "Mareli", age: 59 },
+  { name: "Renan", age: 28 }
 ];
 console.log(users);
 

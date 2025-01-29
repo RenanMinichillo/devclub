@@ -1,5 +1,5 @@
 function intro() {
-  console.log("Hello, I'm Paula!");
+  console.log("Hello, I'm Renan!");
 }
 
 function goodbye() {
