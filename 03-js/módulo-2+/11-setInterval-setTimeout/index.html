@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>DevClub - Crônometro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="time">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="secss">00</span>
+            <span>:</span>
+            <span id="millis">00</span>
+        </div>
+        <div class="buttons">
+            <button type="button" id="btn-refresh"><i class="bi bi-arrow-clockwise"></i></button>
+            <button type="button" id="btn-start"><i class="bi bi-play-fill"></i></button>
+            <button type="button" id="btn-stop"><i class="bi bi-stop-fill"></i></button>
+        </div>
+    </div>
+</body>
+<script>
+    const refreshBtn = document.querySelector('#btn-refresh')
+    const startBtn = document.querySelector('#btn-start')
+    const stopBtn = document.querySelector('#btn-stop')
+
+    const hrs = document.querySelector('#hrs')
+    const min = document.querySelector('#min')
+    const secss = document.querySelector('#secss')
+    const millis = document.querySelector('#millis')
+
+    let active = false
+
+    let millisCount = 0
+    let secsCount = 0
+    let minCount = 0
+    let hrsCount = 0
+    let cron
+
+    refreshBtn.addEventListener('click', () => {
+        clearInterval(cron)
+        millisCount = 0
+        secsCount = 0
+        minCount = 0
+        hrsCount = 0
+        hrs.textContent = '00'
+        min.textContent = '00'
+        secss.textContent = '00'
+        millis.textContent = '00'
+        active = false
+
+    })
+
+    startBtn.addEventListener('click', () => {
+        if (active === false) {
+            active = true
+            cron = setInterval(() => {
+                millisCount++
+                millis.textContent = millisCount * 10
+
+                if (millis.textContent >= 999 && secss.textContent <= 59) {
+                    millisCount = 0
+                    secsCount++
+                    secss.textContent = secsCount < 10 ? '0' + secsCount : secsCount
+                }
+
+                else if (secsCount >= 60 && minCount <= 58) {
+                    secsCount = 0
+                    secss.textContent = '0' + secsCount
+                    minCount++
+                    min.textContent = minCount < 10 ? '0' + minCount : minCount
+                }
+                else if (minCount >= 58 && hrsCount <= 23) {
+                    minCount = 0
+                    min.textContent = '0' + minCount
+                    hrsCount++
+                    hrs.textContent = hrsCount < 10 ? '0' + hrsCount : hrsCount
+                }
+                else if (hrsCount >= 24) {
+                    millisCount = 0
+                    millis.textContent = '0' + millisCount
+                    secsCount = 0
+                    secss.textContent = '0' + secsCount
+                    minCount = 0
+                    min.textContent = '0' + minCount
+                    hrsCount = 0
+                    hrs.textContent = '0' + hrsCount
+
+                }
+            }, 10);
+        }
+
+    })
+
+    stopBtn.addEventListener('click', () => {
+        if (active === true) {
+            clearInterval(cron)
+            active = false
+        }
+    })
+</script>
+
+</html>
