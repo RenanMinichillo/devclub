@@ -1,0 +1,5 @@
+/*
+    forEach(item, index, array)
+
+*/
+
