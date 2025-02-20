@@ -1,5 +1,5 @@
 /*
-   & do while
+   Do while
 
     do while → FAÇA, depois verifique se é TRUE
 
