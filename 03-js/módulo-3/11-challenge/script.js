@@ -30,12 +30,6 @@ function handleInput(itemValue) {
         }
     }
 
-    if (itemValue === 'invert' || itemValue === 'i') {
-        if (display.value && !isNaN(display.value)) {
-            display.value = (parseFloat(display.value) * -1).toString();
-        }
-    }
-
     if (['+', '-', '*', '/'].includes(itemValue)) {
         if (result !== null) {
             arr[0] = result;
