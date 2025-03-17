@@ -31,3 +31,7 @@ app.listen(3000)
 // Query Params → http://localhost:3000/usuarios?name=renan&age=28
 // Route Params → http://localhost:3000/usuarios/variavel → Necessário adicionar a variável no app.get('/usuarios/:variavel) e usar o req
 // Body Params → Não é enviado no URL, mas no corpo da solicitação em JSON → Necessário adicionar o .use(express.json())
+
+// MongoDB
+// Usuário → renanfrans
+// Senha → lDGyOfzy7vvF6AL0
