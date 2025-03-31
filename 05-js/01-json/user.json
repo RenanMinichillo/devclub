@@ -1,0 +1,24 @@
+{
+    "nome": "Renan",
+    "idade": 28,
+    "filhos": null,
+    "hobbies": ["Codar", "Animes", "Filmes", "Séries"],
+    "casado": false,
+    "empregos": {
+        "mcdonalds": {
+            "tipo": "Hamburgueria",
+            "ano": 2014,
+            "tempo": "6 meses"
+        },
+        "fis": {
+            "tipo": "Call Center",
+            "ano": 2015,
+            "tempo": "6 anos e 6 meses"
+        },
+        "mercadolivre": {
+            "tipo": "comércio eletrônico",
+            "ano": 2024,
+            "tempo": "1 mês"
+        }
+    }
+}
